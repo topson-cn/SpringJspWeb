@@ -1,0 +1,6 @@
+###
+POST http://{{hostname}}/isUpgrade
+
+username={{username}}&channel=11&token={{token}}
+
+###

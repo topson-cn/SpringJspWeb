@@ -1,0 +1,27 @@
+spring:
+# mysql
+#  datasource:
+#    url: jdbc:mysql://47.98.161.69:3306/panda
+#    username: root
+#    password: Jay989464!
+#    driver-class-name: com.mysql.jdbc.Driver
+#redis配置
+#  redis:
+#    host: 47.98.161.69
+#    port: 6379
+#    database: 0
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        min-idle: 0
+  mvc:
+# spring mvc jsp视图解析器
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+# mvc静态文件配置
+    static-path-pattern: /static/**
+
+
+
