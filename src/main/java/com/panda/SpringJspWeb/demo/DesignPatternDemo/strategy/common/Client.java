@@ -1,4 +1,4 @@
-package com.panda.SpringJspWeb.demo.strategy.type1;
+package com.panda.SpringJspWeb.demo.DesignPatternDemo.strategy.common;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -13,8 +13,8 @@ public class Client {
         // 创建具体的策略实现
         IStratege stratege = new ConcreteStrategy2();
         // 创建策略上下文对象,并把具体策略注入
-        StrategyContext context = new StrategyContext(stratege, "aaa");
+        StrategyContext strategyContext = new StrategyContext(stratege);
         // 调用上下文对象方法完成对具体策略实习的回调
-        context.contextMethod();
+        strategyContext.contextMethod();
     }
 }

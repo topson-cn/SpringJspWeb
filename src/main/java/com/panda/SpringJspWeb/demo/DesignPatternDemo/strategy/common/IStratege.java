@@ -1,4 +1,4 @@
-package com.panda.SpringJspWeb.demo.strategy.common;
+package com.panda.SpringJspWeb.demo.DesignPatternDemo.strategy.common;
 
 /**
  * 〈一句话功能简述〉<br>
